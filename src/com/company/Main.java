@@ -12,9 +12,9 @@ public class Main {
 	    for (int i=0;i<5;i++ ) {
             System.out.println("Podaj swoje imię");
             imiona[i] = scanner.next();
-        }
+        }//Trochę szalone masz formatowanie kodu. Zobacz w intelij bodaj reformat code
 
-	    for (int j=0;j<5;j++)
+	    for (int j=0;j<5;j++)//dobra praktyka to zamknięcie  kodu w górze w nawiasy {}
             System.out.println("Witaj "+imiona[j]);
 
     }
