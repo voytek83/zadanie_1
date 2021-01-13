@@ -15,8 +15,7 @@ public class Main {
             imiona.add(scanner.next());
         }
 
-        for (int j = 0; j < 5; j++) {
-            System.out.println("Witaj " + imiona.get(j));
-        }
+        imiona.forEach(System.out::println);
+
     }
 }

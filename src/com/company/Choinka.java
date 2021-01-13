@@ -28,6 +28,7 @@ public class Choinka {
             i--;
             h++;
             g = 0;
+
         }
     }
 }

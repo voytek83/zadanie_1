@@ -43,7 +43,6 @@ public class Calc {
 
         System.out.println(wynik);
 
-
     }
 }
 
