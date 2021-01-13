@@ -1,4 +1,3 @@
-//ww
 package com.company.calc;
 
 import java.util.Scanner;
