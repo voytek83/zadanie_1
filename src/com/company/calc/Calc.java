@@ -20,18 +20,18 @@ public class Calc {
         if (dzialanie.equals("+")) {
             wynik = pierwsza + druga;
         } else if (dzialanie.equals("-")) {
-                wynik = pierwsza - druga;
+            wynik = pierwsza - druga;
         } else if (dzialanie.equals("*")) {
-                    wynik = pierwsza * druga;
+            wynik = pierwsza * druga;
         } else if (dzialanie.equals("/")) {
             if (druga == 0) {
-                            System.out.println("Nie można dzielić przez zero");
+                System.out.println("Nie można dzielić przez zero");
             } else {
-                            wynik = pierwsza / druga;
+                wynik = pierwsza / druga;
             }
 
         } else {
-                        System.out.println(" nie może być pokazany - wprowadzono nieprawidłowy znak działania");
+            System.out.println(" nie może być pokazany - wprowadzono nieprawidłowy znak działania");
         }
 
         System.out.println(wynik);
