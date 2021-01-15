@@ -1,13 +1,12 @@
 package com.company.calc;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Calc {
 
     public static void main(String[] args) {
 
-        double wynik = 0;
+//        double wynik = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kalkulator");
         System.out.println("Podaj pierwszą liczbę:");
@@ -34,7 +33,7 @@ public class Calc {
         }
 */
         //wynik = Calculations.calculation(pierwsza,dzialanie,druga);
-        System.out.println(Calculations.calculation(pierwsza,dzialanie,druga));
+        System.out.println(Calculations.calculation(pierwsza, dzialanie, druga));
 
     }
 }

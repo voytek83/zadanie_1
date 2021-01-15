@@ -1,7 +1,6 @@
 package com.company.calc;
 
 
-
 public class Calculations {
 
     static double calculation(double a, String dz, double b) {
