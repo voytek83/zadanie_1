@@ -1,5 +1,6 @@
 package com.company.calc;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Calc {
@@ -17,24 +18,23 @@ public class Calc {
         double druga = scanner.nextDouble();
         System.out.print("Wynik:");
 
-        if (dzialanie.equals("+")) {
-            wynik = pierwsza + druga;
-        } else if (dzialanie.equals("-")) {
-            wynik = pierwsza - druga;
-        } else if (dzialanie.equals("*")) {
-            wynik = pierwsza * druga;
-        } else if (dzialanie.equals("/")) {
-            if (druga == 0) {
-                System.out.println("Nie można dzielić przez zero");
-            } else {
-                wynik = pierwsza / druga;
-            }
 
-        } else {
-            System.out.println(" nie może być pokazany - wprowadzono nieprawidłowy znak działania");
+/*        switch (dzialanie.toLowerCase(Locale.ROOT)) {
+            case "+":
+                wynik = Calculations.adding(pierwsza, druga);
+            case "-":
+                wynik = Calculations.subtract(pierwsza, druga);
+            case "*":
+                wynik = Calculations.multiply(pierwsza, druga);
+            case "/":
+                wynik = Calculations.divide(pierwsza, druga);
+                break;
+            default:
+                System.out.println(" nie może być pokazany - wprowadzono nieprawidłowy znak działania");
         }
-
-        System.out.println(wynik);
+*/
+        //wynik = Calculations.calculation(pierwsza,dzialanie,druga);
+        System.out.println(Calculations.calculation(pierwsza,dzialanie,druga));
 
     }
 }
