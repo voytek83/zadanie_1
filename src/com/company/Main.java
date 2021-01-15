@@ -13,6 +13,7 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println("Podaj swoje imię");
             imiona.add(scanner.next());
+
         }
 
         imiona.forEach(System.out::println);
