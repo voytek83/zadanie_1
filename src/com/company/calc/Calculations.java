@@ -5,19 +5,13 @@ public class Calculations {
 
     static double calculation(double a, String dz, double b) {
 
-        switch (dz) {
-            case "+":
-                return a + b;
-            case "-":
-                return a - b;
-            case "*":
-                return a * b;
-            case "/":
-                return a / b;
-
-            default:
-                throw new IllegalStateException("Unexpected value: " + dz);
-        }
+        return switch (dz) {
+            case "+" -> a + b;
+            case "-" -> a - b;
+            case "*" -> a * b;
+            case "/" -> a / b;
+            default -> throw new IllegalStateException("Unexpected value: " + dz);
+        };
     }
 }
 
