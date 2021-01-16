@@ -18,8 +18,7 @@ public class Calc {
         System.out.println("Podaj drugą liczbę:");
         double druga = scanner.nextDouble();
 
-        System.out.print("Wynik:");
-        System.out.println(Calculations.calculation(pierwsza, dzialanie, druga));
+        System.out.println("Wynik: "+Calculations.calculation(pierwsza, dzialanie, druga));
 
     }
 }
